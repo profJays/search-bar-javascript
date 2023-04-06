@@ -73,12 +73,24 @@ input{
     .search-wrapper {
         padding: 10px;
     }
+    input{
+        padding: 6px;
+        border-radius: 5px;
+        border: 1px solid #777;
+    }
     .container {
         padding: 30px 5px;
         margin: 0;
     }
+    .user-cards{
+        display: flex;
+        flex-direction: column;
+
+
+    }
     .cards .header{
-        font-size: 26px;
+        font-size: 23px;
+        letter-spacing: 0.15em;
     }
     .cards .body{
         font-size: 20px;
